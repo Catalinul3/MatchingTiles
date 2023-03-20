@@ -1,0 +1,58 @@
+﻿<Window x:Class="temaMVP.MatrixType"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:temaMVP"
+        mc:Ignorable="d"
+        Title="MatrixType" Height="640" Width="480">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition>
+             
+            </RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid  >
+                <Grid.RowDefinitions>
+                    <RowDefinition>
+                    </RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition>
+                        </RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="User" Grid.Row="0" FontSize="14" FontFamily="Rockwell"></TextBlock>
+                    <Image x:Name="Avatar" HorizontalAlignment="Right"></Image>
+                </Grid>
+            </Grid>
+        </Grid>
+        <TextBlock Grid.Row="0" Text="Number of rows" FontSize="30" FontFamily="Rockwell" HorizontalAlignment="Center" Margin="0,80,0,0"></TextBlock>
+        <TextBlock Text="Number of columns" FontSize="30" FontFamily="Rockwell" HorizontalAlignment="Center" Grid.RowSpan="2" Margin="40,292,0,20"/>
+        <TextBox x:Name="numberOfRows" HorizontalAlignment="Center" Margin="12,170,0,40" TextWrapping="Wrap" FontSize="30" FontFamily="Rockwell" VerticalAlignment="Top" Width="400" Height="40">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="3"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <TextBox x:Name="numberOfColumns" Grid.Row="1" HorizontalAlignment="Center" Margin="12,70,0,40" TextWrapping="Wrap" FontSize="30" FontFamily="Rockwell" VerticalAlignment="Top" Width="400" Height="40">
+            <TextBox.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="3"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+        <Button Content="Cancel" HorizontalAlignment="Right" Margin="10,200,60,20" Grid.Row="1" VerticalAlignment="Bottom" Width="100" Height="40" Click="Close"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="70,200,60,20" Grid.Row="1" VerticalAlignment="Bottom" Width="100" Height="40" Click="Enter"/>
+
+    </Grid>
+</Window>

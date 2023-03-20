@@ -1,0 +1,13 @@
+﻿images/cafelutza.png
+images/bernie.png
+images/dimitri.png
+images/frin.png
+images/kingpin.png
+images/manny.png
+images/niko.jpg
+images/vlad.png
+images/cj.png
+images/trevor.png
+images/franklin.png
+images/michael.png
+images/claude.png

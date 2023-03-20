@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Board xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <user>Vlad</user>
+  <nrElements>0</nrElements>
+  <linii>2</linii>
+  <coloane>3</coloane>
+  <level>1</level>
+  <attemps>5</attemps>
+  <unknownImagePosition />
+</Board>
